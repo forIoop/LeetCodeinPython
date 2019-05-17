@@ -1,7 +1,7 @@
 #Given a list of prices where i is a price of a given stock at that day,
 #find the maximum profit that you can get from the list of prices.
 
-prices  = [2,4,6,2,7,2,9,4,0,19,34,31]
+prices  = [2,4,6,2,7,2,9,4,0,19,34,31,24]
 
 class Solution:
     def maxProfit(prices) -> int:
