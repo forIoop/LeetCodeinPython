@@ -1,4 +1,4 @@
-#write a function that reverses any string inputted by the user
+#write a function that reverses any string inputted by the user 
 
 def reverse(string):
 
