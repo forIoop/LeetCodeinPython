@@ -1,3 +1,5 @@
-# Folder holding my brute force solutions to problems
-# usually my naive appraoch that will get the problem solved
+# Brute force solutions 
+
+Folder holds my naive appraoch to problems when I first encounter them.
+These solutions are by no means efficient
 #mail to: [paduajaden@gmail.com]
