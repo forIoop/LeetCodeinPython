@@ -1,2 +1,3 @@
-# Folder holds more efficient solutions to my brute force folder
+# Efficient solutions
+This folder holds morfe efficient solutions than the ones in my brute force folder
 # mail to: [paduajaden@gmail.com]
