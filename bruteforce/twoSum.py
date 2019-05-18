@@ -11,3 +11,4 @@ def two_sum_array_method(A,target):
       if A[i] + A[j] == target:
         print(A[i], A[j])
         return True
+ 
