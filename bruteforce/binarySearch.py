@@ -1,4 +1,4 @@
-#Uses mid element to narrow array value down until found
+#Uses mid element to narrow array value down until found 
 import random
 
 def binarySearch(list,element):
