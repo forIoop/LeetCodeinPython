@@ -16,3 +16,4 @@ class Solution:
         return max_profit
 
     print(maxProfit(prices))
+ 
