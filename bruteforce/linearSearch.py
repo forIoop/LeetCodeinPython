@@ -10,3 +10,4 @@ def linearSearch(list,target):
 list = [2,5,8,23,4,78,20,56,25,45]
 val_location = linearSearch(list,56)
 print(val_location)
+ 
