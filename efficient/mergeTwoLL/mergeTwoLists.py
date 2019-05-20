@@ -6,15 +6,14 @@
 #Q points to head of second list
 #S pointer follows along and keep track of lesser value, gives us the sorted list
 
-#imports our linked list data structure
-#from .linkedList import LinkedList
 
+#from .linkedList import LinkedList
+#Start of our LL data structure implementation
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
-
+        
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -179,10 +178,9 @@ class LinkedList:
             return _reverse_recursive(cur, prev)
 
         self.head = _reverse_recursive(cur=self.head, prev=None)
+        #end of our singly linked list data structure
 
-
-
-
+    #goal: merge two sorted singly linked list  
     def merge_sorted(self, llist):
 
         # sets P and Q pointer equal to the head of the two lists passed in
@@ -236,19 +234,22 @@ class LinkedList:
 llist_1 = LinkedList()
 llist_2 = LinkedList()
 
-#appends 5 sorte
 
+#appends 5 elements for list 1
 llist_1.append(1)
 llist_1.append(5)
 llist_1.append(7)
 llist_1.append(9)
 llist_1.append(10)
 
+#appends 5 elements for list 2
 llist_2.append(2)
 llist_2.append(3)
 llist_2.append(4)
 llist_2.append(6)
 llist_2.append(8)
+
+
 print("Ordered list 1 : ")
 llist_1.print_list()
 print("Ordered list 2 : ")
