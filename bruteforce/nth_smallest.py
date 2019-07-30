@@ -1,0 +1,25 @@
+Given an unsorted list, create a function that returns the nth smallest element (the smallest element is the first smallest, the second smallest element is the second smallest, etc).
+
+Examples
+nth_smallest([1, 3, 5, 7], 1) ➞ 1
+
+nth_smallest([1, 3, 5, 7], 3) ➞ 5
+
+nth_smallest([1, 3, 5, 7], 5) ➞ None
+
+nth_smallest([7, 3, 5, 1], 2) ➞ 3
+
+def nth_smallest(lst, n):
+	if n > len(lst):
+		return None
+	
+	for i in range(len(lst)):
+		for j in range(i+1,len(lst)):
+			if lst[i] > lst[j]:
+				temp = lst[i]
+				lst[i] = lst[j]
+				lst[j] = temp
+	return lst[n-1] 
+			
+	
+	
