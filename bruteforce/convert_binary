@@ -1,0 +1,21 @@
+Write a function that transforms all letters from [a,m] to 0 and letters from [n,z] to 1 in a string.
+
+Examples
+convert_binary("house") ➞ "01110"
+
+convert_binary("excLAIM") ➞ "0100000"
+
+convert_binary("moon") ➞ "0111"
+
+def convert_binary(string):
+	output = ""
+	for i in string:
+		if ord(i) >= 65 and ord(i) <= 77:
+			output = output + '0'
+		elif ord(i) >= 97 and ord(i) <= 109:
+			output = output + '0'
+		else:
+			output = output + '1'
+	return output
+			
+			
