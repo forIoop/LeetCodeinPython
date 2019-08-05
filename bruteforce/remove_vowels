@@ -1,0 +1,11 @@
+# remove vowels from a string
+def remove_vowels(txt):
+	vowels = ['a','A','E','e','I','i','O','o','U','u']
+	no_vowels = ""
+	for i in range(len(txt)):
+		if txt[i] in vowels:
+			no_vowels += ""
+		else:
+			no_vowels += txt[i]
+	return no_vowels
+			
