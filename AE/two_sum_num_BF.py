@@ -7,3 +7,5 @@ def twoNumberSum(array, targetSum):
 				lst.append(array[j])
 				return sorted(lst)
 	return []
+#TC: O(N^2)
+#SC: O(1)
