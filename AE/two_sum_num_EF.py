@@ -8,3 +8,5 @@ def twoNumberSum(array, targetSum):
 			ht[array[i]] = "True"
 	return []
 							   
+#TC: O(N)
+#SC: O(N)
