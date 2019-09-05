@@ -1,11 +1,11 @@
 def twoNumberSum(array, targetSum):
 	lst = []
-	for i in range(len(array)):
+	for i in range(len(array)-1):
+		firstNum = array[i]
 		for j in range(i+1,len(array)):
-			if array[i] + array[j] == targetSum:
-				lst.append(array[i])
-				lst.append(array[j])
-				return sorted(lst)
+			secondNum = array[j]
+			if firstNum + secondNum == targetSum:
+				return [firstNum, secondNum]
 	return []
 #TC: O(N^2)
 #SC: O(1)
