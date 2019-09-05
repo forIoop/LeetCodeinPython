@@ -12,4 +12,6 @@ def twoNumberSum(array, targetSum):
 		elif currentSum > targetSum:
 			right -= 1
 	return []
+#TC: O(nlogn)
+#SC: O(1)
 			
