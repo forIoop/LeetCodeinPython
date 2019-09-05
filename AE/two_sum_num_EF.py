@@ -1,11 +1,11 @@
 def twoNumberSum(array, targetSum):
 	ht = dict()
 	for i in range(len(array)):
-		y = targetSum - array[i]
-		if y in ht:
-			return sorted([array[i],y]) 
+		potentialMatch = targetSum - array[i]
+		if potentialMatch in ht:
+			return [potentialMatch,array[i] 
 		else:
-			ht[array[i]] = "True"
+			ht[array[i]] = True
 	return []
 							   
 #TC: O(N)
