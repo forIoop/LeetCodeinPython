@@ -12,3 +12,6 @@ def findClosestValueInBstHelper(tree, target, closest):
 		return findClosestValueInBstHelper(tree.right,target,closest)
 	else:
 		return closest
+
+	#TC: Average case of O(log(n)) time | worst case time of O(n)
+	#SC: Average case of O(1) | Worst case of O(1)
