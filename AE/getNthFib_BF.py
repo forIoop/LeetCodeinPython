@@ -6,3 +6,5 @@ def getNthFib(n):
 	
 	else:
 		return getNthFib(n-1) + getNthFib(n-2)
+TC: O(2^n)
+SC: O(N)
