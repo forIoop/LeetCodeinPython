@@ -1,1 +1,1 @@
-Transition to C++ for competitive prohramming and coding interviews on 9-13-2019
+Transition to C++ for competitive programming and coding interviews on 9-13-2019
