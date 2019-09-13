@@ -1,3 +1,0 @@
-bool returnTrue() {
-  return true;
-}
