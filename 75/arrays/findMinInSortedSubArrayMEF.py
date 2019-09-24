@@ -20,4 +20,4 @@ class Solution:
             mid = (low + high) // 2
         return nums[mid]
         
-#O(n) time | O(1) space
+#O(log(n)) time | O(1) space
