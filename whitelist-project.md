@@ -49,7 +49,7 @@ choose for an audit is consistent with all of the packages in my server.
 real time alerts whenever one of my servers are built with unauthorized packages.
 
 ### High Level Overview
-####Phase 1:
+#### Phase 1:
 Phase 1 consists of the minimum features needed for our CM-08 Whitelist to be accepted
 and utilized. Below is a high level overview of our MVP implementation and testing:
 
@@ -70,7 +70,7 @@ is identical to the one on platform.
 * Regression tests are needed in order to assert that the new whitelist build process does not have any
 adverse affects on the original puppet script which preforms the Cron Job
 
-####Phase 2:
+#### Phase 2:
 Phase 2 consists of extra features that can make our whitelist process more extensive and reliable.
 Below are possible ideas of phase 2 features:
 * Create a schema for our table with different fields (env, fileType, name)
@@ -78,7 +78,7 @@ Below are possible ideas of phase 2 features:
 * Create config file in order to store variables such as:
 [DestinationDirectory][Connection Server][filename][filetype]
 
-####Phase 3:
+#### Phase 3:
 Phase 3 consists of security features that make our whitelist process safer and more restrictive.
 Below are possible ideas of phase 3 features:
 * Restrict permissions of access to on platform scoped app
